@@ -31,11 +31,12 @@ let mySecondArrayOfNums: number[] = [5, 10, 15, 20];
 let myArrayOfStrings: Array<string> = ['John', 'Doe'];
 // Can also be done:
 let anotherArrayOfStrings: string[] = ['Mike', 'Shuff'];
+let mySecondAnyArray: any[] = [true, null, 123131];
 
 interface MyUserObject {
   name: string;
   age: number;
-}
+};
 
 let myUser: MyUserObject = {
   name: 'Mike',
